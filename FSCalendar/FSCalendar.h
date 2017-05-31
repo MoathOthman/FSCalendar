@@ -439,6 +439,10 @@ IB_DESIGNABLE
  */
 @property (readonly, nonatomic) NSArray<NSDate *> *selectedDates;
 
+/// Bottom and top line borders of the whole calendar view.
+@property (weak  , nonatomic) UIView *topBorder;
+@property (weak  , nonatomic) UIView *bottomBorder;
+
 /**
  Reload the dates and appearance of the calendar.
  */
